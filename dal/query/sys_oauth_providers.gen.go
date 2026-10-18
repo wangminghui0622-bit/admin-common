@@ -16,7 +16,7 @@ import (
 
 	"gorm.io/plugin/dbresolver"
 
-	"admin-zero/admin-common/dal/model"
+	"github.com/wangminghui0622-bit/admin-common/dal/model"
 )
 
 func newSysOauthProvider(db *gorm.DB, opts ...gen.DOOption) sysOauthProvider {
