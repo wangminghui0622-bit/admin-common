@@ -9,6 +9,7 @@ require (
 	github.com/mojocn/base64Captcha v1.3.8
 	github.com/zeromicro/go-zero v1.10.3
 	google.golang.org/grpc v1.80.0
+	gorm.io/driver/mysql v1.6.0
 	gorm.io/gen v0.3.29
 	gorm.io/gorm v1.31.2
 	gorm.io/plugin/dbresolver v1.6.2
@@ -84,7 +85,6 @@ require (
 	google.golang.org/protobuf v1.36.11 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gorm.io/datatypes v1.2.4 // indirect
-	gorm.io/driver/mysql v1.6.0 // indirect
 	gorm.io/driver/postgres v1.6.0 // indirect
 	gorm.io/driver/sqlserver v1.6.3 // indirect
 	gorm.io/hints v1.1.0 // indirect

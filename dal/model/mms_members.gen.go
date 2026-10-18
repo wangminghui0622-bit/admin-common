@@ -24,7 +24,7 @@ type MmsMember struct {
 	Avatar       *string    `gorm:"column:avatar;comment:Avatar | 头像路径" json:"avatar"`                                    // Avatar | 头像路径
 	WechatOpenID *string    `gorm:"column:wechat_open_id;comment:Wechat Open ID | 微信 Open ID" json:"wechat_open_id"`      // Wechat Open ID | 微信 Open ID
 	ExpiredAt    *time.Time `gorm:"column:expired_at;comment:Member expired time | 会员到期时间" json:"expired_at"`             // Member expired time | 会员到期时间
-	RankID       *int64     `gorm:"column:rank_id;comment:Member Rank ID | 会员等级ID" json:"rank_id"`              // Member Rank ID | 会员等级ID
+	RankID       *int64     `gorm:"column:rank_id;comment:Member Rank ID | 会员等级ID" json:"rank_id"`                        // Member Rank ID | 会员等级ID
 }
 
 // TableName MmsMember's table name
